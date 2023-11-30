@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
+
+.form {
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+  margin-top: 100px;
+  gap: 80px;
+}
+
+input,
+textarea {
+  border: 1px solid rgba(128, 128, 128, 0.199);
+  padding: 13px;
+}
+
+input::placeholder,
+textarea::placeholder {
+  font-family: "Roboto";
+  color: rgba(128, 128, 128, 0.603);
+  font-weight: 400;
+}
+
+form {
+  display: flex;
+  row-gap: 6px;
+  flex-direction: column;
+}
+
+textarea {
+  resize: none;
+}
+
+.form_title,
+.logo_title {
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 24px;
+  margin-bottom: 25px;
+}
+
+.form_btn {
+  color: #00e0d0;
+  font-family: "Roboto";
+  border: 2px solid #00e0d0;
+  padding: 12px 40px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 4px;
+  font-weight: 800;
+}
+
+.form_btn:hover {
+  background-color: #00e0d0;
+  color: #fff;
+  transition: all 0.3s ease-in-out;
+  transform: scale(1.05);
+}
+
+.form_btn:active {
+  transform: scale(1);
+}
