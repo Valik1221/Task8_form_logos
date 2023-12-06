@@ -62,3 +62,16 @@ textarea {
 .form_btn:active {
   transform: scale(1);
 }
+
+.logo-container {
+  display: flex;
+  gap: 40px;
+}
+
+.first_logo_wrap,
+.second_logo_wrap {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  align-items: center;
+}
